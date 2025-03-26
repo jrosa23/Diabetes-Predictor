@@ -18,13 +18,13 @@ We used a dataset found on Kaggle that containing diabetes health indicators. Th
 - etc.
 
 ## Installation
-1. Clone the repository:
+1. Clone the repository using SSH key:
    ```sh
-   git clone 
+   git clone git@github.com:jrosa23/Diabetes-Predictor.git
    ```
 2. Navigate to the project directory:
    ```sh
-   cd 
+   cd Diabetes-Predictor
    ```
 3. Install dependencies (if applicable):
    ```sh
@@ -33,7 +33,8 @@ We used a dataset found on Kaggle that containing diabetes health indicators. Th
 
 ## Usage
 
-The final data machine learning model can be found in the Resources folder under the name diabetes_logi_regress_model.pkl 
+The final notebook can be found in the Final folder and final data machine learning model can be found in the Resources folder under the name diabetes_logi_regress_model.pkl 
+Our data can also be found under data folder in the rescources folder.
 
 ## Tableau Workbook
 
