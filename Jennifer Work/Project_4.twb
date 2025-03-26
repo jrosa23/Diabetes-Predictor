@@ -1,0 +1,1307 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20243.24.1010.1014                               -->
+<workbook original-version='18.1' source-build='2024.3.0 (20243.24.1010.1014)' source-platform='mac' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AccessibleZoneTabOrder />
+    <AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <MarkAnimation />
+    <ObjectModelEncapsulateLegacy />
+    <ObjectModelExtractV2 />
+    <ObjectModelTableType />
+    <SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <_.fcp.VConnDownstreamExtractsWithWarnings.true...VConnDownstreamExtractsWithWarnings />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='diabetes_012_health_indicators_BRFSS2015' inline='true' name='federated.1jw92db1ls8nug1c6rouk0v3dr38' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='diabetes_012_health_indicators_BRFSS2015' name='textscan.1pvry941msg5zg11sn8j20e7m4t7'>
+            <connection class='textscan' directory='/Users/jennivega/Desktop/UCI_BootCamp/Homework assignments/Diabetes-Predictor/Resources/Data' filename='diabetes_012_health_indicators_BRFSS2015.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.1pvry941msg5zg11sn8j20e7m4t7' name='diabetes_012_health_indicators_BRFSS2015.csv' table='[diabetes_012_health_indicators_BRFSS2015#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='real' name='Diabetes_012' ordinal='0' />
+            <column datatype='real' name='HighBP' ordinal='1' />
+            <column datatype='real' name='HighChol' ordinal='2' />
+            <column datatype='real' name='CholCheck' ordinal='3' />
+            <column datatype='real' name='BMI' ordinal='4' />
+            <column datatype='real' name='Smoker' ordinal='5' />
+            <column datatype='real' name='Stroke' ordinal='6' />
+            <column datatype='real' name='HeartDiseaseorAttack' ordinal='7' />
+            <column datatype='real' name='PhysActivity' ordinal='8' />
+            <column datatype='real' name='Fruits' ordinal='9' />
+            <column datatype='real' name='Veggies' ordinal='10' />
+            <column datatype='real' name='HvyAlcoholConsump' ordinal='11' />
+            <column datatype='real' name='AnyHealthcare' ordinal='12' />
+            <column datatype='real' name='NoDocbcCost' ordinal='13' />
+            <column datatype='real' name='GenHlth' ordinal='14' />
+            <column datatype='real' name='MentHlth' ordinal='15' />
+            <column datatype='real' name='PhysHlth' ordinal='16' />
+            <column datatype='real' name='DiffWalk' ordinal='17' />
+            <column datatype='real' name='Sex' ordinal='18' />
+            <column datatype='real' name='Age' ordinal='19' />
+            <column datatype='real' name='Education' ordinal='20' />
+            <column datatype='real' name='Income' ordinal='21' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[diabetes_012_health_indicators_BRFSS2015.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Diabetes_012</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Diabetes_012]</local-name>
+            <parent-name>[diabetes_012_health_indicators_BRFSS2015.csv]</parent-name>
+            <remote-alias>Diabetes_012</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[diabetes_012_health_indicators_BRFSS2015.csv_3F2A2355ED114C2BAD555CEABD602FD4]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>HighBP</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[HighBP]</local-name>
+            <parent-name>[diabetes_012_health_indicators_BRFSS2015.csv]</parent-name>
+            <remote-alias>HighBP</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[diabetes_012_health_indicators_BRFSS2015.csv_3F2A2355ED114C2BAD555CEABD602FD4]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>HighChol</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[HighChol]</local-name>
+            <parent-name>[diabetes_012_health_indicators_BRFSS2015.csv]</parent-name>
+            <remote-alias>HighChol</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[diabetes_012_health_indicators_BRFSS2015.csv_3F2A2355ED114C2BAD555CEABD602FD4]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CholCheck</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[CholCheck]</local-name>
+            <parent-name>[diabetes_012_health_indicators_BRFSS2015.csv]</parent-name>
+            <remote-alias>CholCheck</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[diabetes_012_health_indicators_BRFSS2015.csv_3F2A2355ED114C2BAD555CEABD602FD4]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>BMI</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[BMI]</local-name>
+            <parent-name>[diabetes_012_health_indicators_BRFSS2015.csv]</parent-name>
+            <remote-alias>BMI</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[diabetes_012_health_indicators_BRFSS2015.csv_3F2A2355ED114C2BAD555CEABD602FD4]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Smoker</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Smoker]</local-name>
+            <parent-name>[diabetes_012_health_indicators_BRFSS2015.csv]</parent-name>
+            <remote-alias>Smoker</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[diabetes_012_health_indicators_BRFSS2015.csv_3F2A2355ED114C2BAD555CEABD602FD4]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Stroke</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Stroke]</local-name>
+            <parent-name>[diabetes_012_health_indicators_BRFSS2015.csv]</parent-name>
+            <remote-alias>Stroke</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[diabetes_012_health_indicators_BRFSS2015.csv_3F2A2355ED114C2BAD555CEABD602FD4]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>HeartDiseaseorAttack</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[HeartDiseaseorAttack]</local-name>
+            <parent-name>[diabetes_012_health_indicators_BRFSS2015.csv]</parent-name>
+            <remote-alias>HeartDiseaseorAttack</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[diabetes_012_health_indicators_BRFSS2015.csv_3F2A2355ED114C2BAD555CEABD602FD4]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PhysActivity</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[PhysActivity]</local-name>
+            <parent-name>[diabetes_012_health_indicators_BRFSS2015.csv]</parent-name>
+            <remote-alias>PhysActivity</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[diabetes_012_health_indicators_BRFSS2015.csv_3F2A2355ED114C2BAD555CEABD602FD4]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Fruits</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Fruits]</local-name>
+            <parent-name>[diabetes_012_health_indicators_BRFSS2015.csv]</parent-name>
+            <remote-alias>Fruits</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[diabetes_012_health_indicators_BRFSS2015.csv_3F2A2355ED114C2BAD555CEABD602FD4]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Veggies</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Veggies]</local-name>
+            <parent-name>[diabetes_012_health_indicators_BRFSS2015.csv]</parent-name>
+            <remote-alias>Veggies</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[diabetes_012_health_indicators_BRFSS2015.csv_3F2A2355ED114C2BAD555CEABD602FD4]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>HvyAlcoholConsump</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[HvyAlcoholConsump]</local-name>
+            <parent-name>[diabetes_012_health_indicators_BRFSS2015.csv]</parent-name>
+            <remote-alias>HvyAlcoholConsump</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[diabetes_012_health_indicators_BRFSS2015.csv_3F2A2355ED114C2BAD555CEABD602FD4]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>AnyHealthcare</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[AnyHealthcare]</local-name>
+            <parent-name>[diabetes_012_health_indicators_BRFSS2015.csv]</parent-name>
+            <remote-alias>AnyHealthcare</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[diabetes_012_health_indicators_BRFSS2015.csv_3F2A2355ED114C2BAD555CEABD602FD4]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>NoDocbcCost</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[NoDocbcCost]</local-name>
+            <parent-name>[diabetes_012_health_indicators_BRFSS2015.csv]</parent-name>
+            <remote-alias>NoDocbcCost</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[diabetes_012_health_indicators_BRFSS2015.csv_3F2A2355ED114C2BAD555CEABD602FD4]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>GenHlth</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[GenHlth]</local-name>
+            <parent-name>[diabetes_012_health_indicators_BRFSS2015.csv]</parent-name>
+            <remote-alias>GenHlth</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[diabetes_012_health_indicators_BRFSS2015.csv_3F2A2355ED114C2BAD555CEABD602FD4]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MentHlth</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[MentHlth]</local-name>
+            <parent-name>[diabetes_012_health_indicators_BRFSS2015.csv]</parent-name>
+            <remote-alias>MentHlth</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[diabetes_012_health_indicators_BRFSS2015.csv_3F2A2355ED114C2BAD555CEABD602FD4]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PhysHlth</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[PhysHlth]</local-name>
+            <parent-name>[diabetes_012_health_indicators_BRFSS2015.csv]</parent-name>
+            <remote-alias>PhysHlth</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[diabetes_012_health_indicators_BRFSS2015.csv_3F2A2355ED114C2BAD555CEABD602FD4]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DiffWalk</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[DiffWalk]</local-name>
+            <parent-name>[diabetes_012_health_indicators_BRFSS2015.csv]</parent-name>
+            <remote-alias>DiffWalk</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[diabetes_012_health_indicators_BRFSS2015.csv_3F2A2355ED114C2BAD555CEABD602FD4]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sex</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Sex]</local-name>
+            <parent-name>[diabetes_012_health_indicators_BRFSS2015.csv]</parent-name>
+            <remote-alias>Sex</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[diabetes_012_health_indicators_BRFSS2015.csv_3F2A2355ED114C2BAD555CEABD602FD4]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Age</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Age]</local-name>
+            <parent-name>[diabetes_012_health_indicators_BRFSS2015.csv]</parent-name>
+            <remote-alias>Age</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[diabetes_012_health_indicators_BRFSS2015.csv_3F2A2355ED114C2BAD555CEABD602FD4]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Education</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Education]</local-name>
+            <parent-name>[diabetes_012_health_indicators_BRFSS2015.csv]</parent-name>
+            <remote-alias>Education</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[diabetes_012_health_indicators_BRFSS2015.csv_3F2A2355ED114C2BAD555CEABD602FD4]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Income</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Income]</local-name>
+            <parent-name>[diabetes_012_health_indicators_BRFSS2015.csv]</parent-name>
+            <remote-alias>Income</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[diabetes_012_health_indicators_BRFSS2015.csv_3F2A2355ED114C2BAD555CEABD602FD4]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Any Healthcare' datatype='real' name='[AnyHealthcare]' role='measure' type='quantitative' />
+      <column caption='Chol Check' datatype='real' name='[CholCheck]' role='measure' type='quantitative' />
+      <column datatype='string' name='[Diabetes 012 (group)]' role='dimension' type='nominal'>
+        <calculation class='categorical-bin' column='[Diabetes_012]' new-bin='true'>
+          <bin default-name='false' value='&quot;Diabetic &quot;'>
+            <value>2.0</value>
+          </bin>
+          <bin default-name='false' value='&quot;No Diabetes&quot;'>
+            <value>0.0</value>
+          </bin>
+          <bin default-name='false' value='&quot;Pre-Diabetes&quot;'>
+            <value>1.0</value>
+          </bin>
+        </calculation>
+      </column>
+      <column caption='Diabetes 012' datatype='real' name='[Diabetes_012]' role='measure' type='quantitative' />
+      <column caption='Diff Walk' datatype='real' name='[DiffWalk]' role='measure' type='quantitative' />
+      <column caption='Gen Hlth' datatype='real' name='[GenHlth]' role='measure' type='quantitative' />
+      <column caption='Heart Diseaseor Attack' datatype='real' name='[HeartDiseaseorAttack]' role='measure' type='quantitative' />
+      <column caption='High BP' datatype='real' name='[HighBP]' role='measure' type='quantitative' />
+      <column caption='High Chol' datatype='real' name='[HighChol]' role='measure' type='quantitative' />
+      <column caption='Hvy Alcohol Consump' datatype='real' name='[HvyAlcoholConsump]' role='measure' type='quantitative' />
+      <column caption='Ment Hlth' datatype='real' name='[MentHlth]' role='measure' type='quantitative' />
+      <column caption='No Docbc Cost' datatype='real' name='[NoDocbcCost]' role='measure' type='quantitative' />
+      <column caption='Phys Activity' datatype='real' name='[PhysActivity]' role='measure' type='quantitative' />
+      <column caption='Phys Hlth' datatype='real' name='[PhysHlth]' role='measure' type='quantitative' />
+      <column caption='diabetes_012_health_indicators_BRFSS2015.csv' datatype='table' name='[__tableau_internal_object_id__].[diabetes_012_health_indicators_BRFSS2015.csv_3F2A2355ED114C2BAD555CEABD602FD4]' role='measure' type='quantitative' />
+      <extract _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' object-id='' units='records'>
+        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='/var/folders/j1/3lk4c0b17lxc6lhdy94ylbw80000gn/T/tableau-temp/#TableauTemp_105smie119jiqz11yjhq51nw4do9.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='03/25/2025 02:04:35 AM' username='tableau_internal_user'>
+          <relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>Diabetes_012</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Diabetes_012]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Diabetes_012</remote-alias>
+              <ordinal>0</ordinal>
+              <family>diabetes_012_health_indicators_BRFSS2015.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[diabetes_012_health_indicators_BRFSS2015.csv_3F2A2355ED114C2BAD555CEABD602FD4]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>HighBP</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[HighBP]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>HighBP</remote-alias>
+              <ordinal>1</ordinal>
+              <family>diabetes_012_health_indicators_BRFSS2015.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[diabetes_012_health_indicators_BRFSS2015.csv_3F2A2355ED114C2BAD555CEABD602FD4]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>HighChol</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[HighChol]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>HighChol</remote-alias>
+              <ordinal>2</ordinal>
+              <family>diabetes_012_health_indicators_BRFSS2015.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[diabetes_012_health_indicators_BRFSS2015.csv_3F2A2355ED114C2BAD555CEABD602FD4]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>CholCheck</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[CholCheck]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>CholCheck</remote-alias>
+              <ordinal>3</ordinal>
+              <family>diabetes_012_health_indicators_BRFSS2015.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[diabetes_012_health_indicators_BRFSS2015.csv_3F2A2355ED114C2BAD555CEABD602FD4]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>BMI</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[BMI]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>BMI</remote-alias>
+              <ordinal>4</ordinal>
+              <family>diabetes_012_health_indicators_BRFSS2015.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>138</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[diabetes_012_health_indicators_BRFSS2015.csv_3F2A2355ED114C2BAD555CEABD602FD4]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Smoker</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Smoker]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Smoker</remote-alias>
+              <ordinal>5</ordinal>
+              <family>diabetes_012_health_indicators_BRFSS2015.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[diabetes_012_health_indicators_BRFSS2015.csv_3F2A2355ED114C2BAD555CEABD602FD4]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Stroke</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Stroke]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Stroke</remote-alias>
+              <ordinal>6</ordinal>
+              <family>diabetes_012_health_indicators_BRFSS2015.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[diabetes_012_health_indicators_BRFSS2015.csv_3F2A2355ED114C2BAD555CEABD602FD4]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>HeartDiseaseorAttack</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[HeartDiseaseorAttack]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>HeartDiseaseorAttack</remote-alias>
+              <ordinal>7</ordinal>
+              <family>diabetes_012_health_indicators_BRFSS2015.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[diabetes_012_health_indicators_BRFSS2015.csv_3F2A2355ED114C2BAD555CEABD602FD4]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>PhysActivity</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[PhysActivity]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>PhysActivity</remote-alias>
+              <ordinal>8</ordinal>
+              <family>diabetes_012_health_indicators_BRFSS2015.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[diabetes_012_health_indicators_BRFSS2015.csv_3F2A2355ED114C2BAD555CEABD602FD4]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Fruits</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Fruits]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Fruits</remote-alias>
+              <ordinal>9</ordinal>
+              <family>diabetes_012_health_indicators_BRFSS2015.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[diabetes_012_health_indicators_BRFSS2015.csv_3F2A2355ED114C2BAD555CEABD602FD4]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Veggies</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Veggies]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Veggies</remote-alias>
+              <ordinal>10</ordinal>
+              <family>diabetes_012_health_indicators_BRFSS2015.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[diabetes_012_health_indicators_BRFSS2015.csv_3F2A2355ED114C2BAD555CEABD602FD4]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>HvyAlcoholConsump</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[HvyAlcoholConsump]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>HvyAlcoholConsump</remote-alias>
+              <ordinal>11</ordinal>
+              <family>diabetes_012_health_indicators_BRFSS2015.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[diabetes_012_health_indicators_BRFSS2015.csv_3F2A2355ED114C2BAD555CEABD602FD4]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>AnyHealthcare</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[AnyHealthcare]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>AnyHealthcare</remote-alias>
+              <ordinal>12</ordinal>
+              <family>diabetes_012_health_indicators_BRFSS2015.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[diabetes_012_health_indicators_BRFSS2015.csv_3F2A2355ED114C2BAD555CEABD602FD4]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>NoDocbcCost</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[NoDocbcCost]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>NoDocbcCost</remote-alias>
+              <ordinal>13</ordinal>
+              <family>diabetes_012_health_indicators_BRFSS2015.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[diabetes_012_health_indicators_BRFSS2015.csv_3F2A2355ED114C2BAD555CEABD602FD4]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>GenHlth</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[GenHlth]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>GenHlth</remote-alias>
+              <ordinal>14</ordinal>
+              <family>diabetes_012_health_indicators_BRFSS2015.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[diabetes_012_health_indicators_BRFSS2015.csv_3F2A2355ED114C2BAD555CEABD602FD4]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>MentHlth</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[MentHlth]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>MentHlth</remote-alias>
+              <ordinal>15</ordinal>
+              <family>diabetes_012_health_indicators_BRFSS2015.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>27</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[diabetes_012_health_indicators_BRFSS2015.csv_3F2A2355ED114C2BAD555CEABD602FD4]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>PhysHlth</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[PhysHlth]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>PhysHlth</remote-alias>
+              <ordinal>16</ordinal>
+              <family>diabetes_012_health_indicators_BRFSS2015.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>76</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[diabetes_012_health_indicators_BRFSS2015.csv_3F2A2355ED114C2BAD555CEABD602FD4]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>DiffWalk</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[DiffWalk]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>DiffWalk</remote-alias>
+              <ordinal>17</ordinal>
+              <family>diabetes_012_health_indicators_BRFSS2015.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[diabetes_012_health_indicators_BRFSS2015.csv_3F2A2355ED114C2BAD555CEABD602FD4]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Sex</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Sex]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Sex</remote-alias>
+              <ordinal>18</ordinal>
+              <family>diabetes_012_health_indicators_BRFSS2015.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[diabetes_012_health_indicators_BRFSS2015.csv_3F2A2355ED114C2BAD555CEABD602FD4]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Age</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Age]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Age</remote-alias>
+              <ordinal>19</ordinal>
+              <family>diabetes_012_health_indicators_BRFSS2015.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>13</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[diabetes_012_health_indicators_BRFSS2015.csv_3F2A2355ED114C2BAD555CEABD602FD4]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Education</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Education]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Education</remote-alias>
+              <ordinal>20</ordinal>
+              <family>diabetes_012_health_indicators_BRFSS2015.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>11</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[diabetes_012_health_indicators_BRFSS2015.csv_3F2A2355ED114C2BAD555CEABD602FD4]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Income</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Income]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Income</remote-alias>
+              <ordinal>21</ordinal>
+              <family>diabetes_012_health_indicators_BRFSS2015.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>8</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[diabetes_012_health_indicators_BRFSS2015.csv_3F2A2355ED114C2BAD555CEABD602FD4]</object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' rowDisplayCount='100' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <object-graph>
+        <objects>
+          <object caption='diabetes_012_health_indicators_BRFSS2015.csv' id='diabetes_012_health_indicators_BRFSS2015.csv_3F2A2355ED114C2BAD555CEABD602FD4'>
+            <properties context=''>
+              <relation connection='textscan.1pvry941msg5zg11sn8j20e7m4t7' name='diabetes_012_health_indicators_BRFSS2015.csv' table='[diabetes_012_health_indicators_BRFSS2015#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='real' name='Diabetes_012' ordinal='0' />
+                  <column datatype='real' name='HighBP' ordinal='1' />
+                  <column datatype='real' name='HighChol' ordinal='2' />
+                  <column datatype='real' name='CholCheck' ordinal='3' />
+                  <column datatype='real' name='BMI' ordinal='4' />
+                  <column datatype='real' name='Smoker' ordinal='5' />
+                  <column datatype='real' name='Stroke' ordinal='6' />
+                  <column datatype='real' name='HeartDiseaseorAttack' ordinal='7' />
+                  <column datatype='real' name='PhysActivity' ordinal='8' />
+                  <column datatype='real' name='Fruits' ordinal='9' />
+                  <column datatype='real' name='Veggies' ordinal='10' />
+                  <column datatype='real' name='HvyAlcoholConsump' ordinal='11' />
+                  <column datatype='real' name='AnyHealthcare' ordinal='12' />
+                  <column datatype='real' name='NoDocbcCost' ordinal='13' />
+                  <column datatype='real' name='GenHlth' ordinal='14' />
+                  <column datatype='real' name='MentHlth' ordinal='15' />
+                  <column datatype='real' name='PhysHlth' ordinal='16' />
+                  <column datatype='real' name='DiffWalk' ordinal='17' />
+                  <column datatype='real' name='Sex' ordinal='18' />
+                  <column datatype='real' name='Age' ordinal='19' />
+                  <column datatype='real' name='Education' ordinal='20' />
+                  <column datatype='real' name='Income' ordinal='21' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='diabetes_012_health_indicators_BRFSS2015' name='federated.1jw92db1ls8nug1c6rouk0v3dr38' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1jw92db1ls8nug1c6rouk0v3dr38'>
+            <column datatype='string' name='[Diabetes 012 (group)]' role='dimension' type='nominal'>
+              <calculation class='categorical-bin' column='[Diabetes_012]' new-bin='true'>
+                <bin default-name='false' value='&quot;Diabetic &quot;'>
+                  <value>2.0</value>
+                </bin>
+                <bin default-name='false' value='&quot;No Diabetes&quot;'>
+                  <value>0.0</value>
+                </bin>
+                <bin default-name='false' value='&quot;Pre-Diabetes&quot;'>
+                  <value>1.0</value>
+                </bin>
+              </calculation>
+            </column>
+            <column caption='Diabetes 012' datatype='real' name='[Diabetes_012]' role='measure' type='quantitative' />
+            <column caption='Heart Diseaseor Attack' datatype='real' name='[HeartDiseaseorAttack]' role='measure' type='quantitative' />
+            <column caption='High BP' datatype='real' name='[HighBP]' role='measure' type='quantitative' />
+            <column caption='High Chol' datatype='real' name='[HighChol]' role='measure' type='quantitative' />
+            <column-instance column='[HeartDiseaseorAttack]' derivation='Sum' name='[sum:HeartDiseaseorAttack:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[HighBP]' derivation='Sum' name='[sum:HighBP:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[HighChol]' derivation='Sum' name='[sum:HighChol:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <manual-sort column='[federated.1jw92db1ls8nug1c6rouk0v3dr38].[Diabetes 012 (group)]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;Diabetic &quot;</bucket>
+              <bucket>&quot;Pre-Diabetes&quot;</bucket>
+              <bucket>&quot;No Diabetes&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane id='7' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <text column='[federated.1jw92db1ls8nug1c6rouk0v3dr38].[Diabetes 012 (group)]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='8' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.1jw92db1ls8nug1c6rouk0v3dr38].[sum:HighChol:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <text column='[federated.1jw92db1ls8nug1c6rouk0v3dr38].[Diabetes 012 (group)]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='9' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.1jw92db1ls8nug1c6rouk0v3dr38].[sum:HeartDiseaseorAttack:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <text column='[federated.1jw92db1ls8nug1c6rouk0v3dr38].[Diabetes 012 (group)]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='10' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.1jw92db1ls8nug1c6rouk0v3dr38].[sum:HighBP:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <text column='[federated.1jw92db1ls8nug1c6rouk0v3dr38].[Diabetes 012 (group)]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1jw92db1ls8nug1c6rouk0v3dr38].[Diabetes 012 (group)]</rows>
+        <cols>([federated.1jw92db1ls8nug1c6rouk0v3dr38].[sum:HighChol:qk] + ([federated.1jw92db1ls8nug1c6rouk0v3dr38].[sum:HeartDiseaseorAttack:qk] + [federated.1jw92db1ls8nug1c6rouk0v3dr38].[sum:HighBP:qk]))</cols>
+      </table>
+      <simple-id uuid='{4269780B-2B19-4CAA-8FC5-5169F1889B7A}' />
+    </worksheet>
+    <worksheet name='Sheet 2'>
+      <table>
+        <view>
+          <datasources />
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{C639D222-E6DA-4E54-A8F4-441576F60CD6}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard enable-sort-zone-taborder='true' name='Dashboard 1'>
+      <style />
+      <size maxheight='860' maxwidth='650' minheight='560' minwidth='420' />
+      <zones />
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='84000' id='3' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000' />
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{0C1B0DEA-6E68-4008-8D6D-650D418FB987}' />
+    </dashboard>
+    <dashboard name='Story 1' type='storyboard'>
+      <style />
+      <size maxheight='964' maxwidth='1016' minheight='964' minwidth='1016' />
+      <zones>
+        <zone h='100000' id='2' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98340' id='1' param='vert' removable='false' type-v2='layout-flow' w='98426' x='787' y='830'>
+            <zone h='3423' id='3' type-v2='title' w='98426' x='787' y='830' />
+            <zone h='10477' id='4' is-fixed='true' paired-zone-id='5' removable='false' type-v2='flipboard-nav' w='98426' x='787' y='4253' />
+            <zone h='84440' id='5' paired-zone-id='4' removable='false' type-v2='flipboard' w='98426' x='787' y='14730'>
+              <flipboard active-id='1' nav-type='caption' show-nav-arrows='true'>
+                <story-points>
+                  <story-point captured-sheet='' id='1' />
+                </story-points>
+              </flipboard>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <simple-id uuid='{651A1955-3C85-46D8-8B0D-CD55862C4E80}' />
+    </dashboard>
+  </dashboards>
+  <windows source-height='30'>
+    <window class='worksheet' maximized='true' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{3740BE79-B3BF-4E4D-BDDA-2488D09D8840}' />
+    </window>
+    <window class='worksheet' name='Sheet 2'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{E10D0A51-164D-4562-A24B-237AF2AF924D}' />
+    </window>
+    <window class='dashboard' name='Dashboard 1'>
+      <viewpoints />
+      <active id='-1' />
+      <simple-id uuid='{E5814817-D3E9-439B-9081-DF1FF92703B0}' />
+    </window>
+    <window class='dashboard' name='Story 1'>
+      <viewpoints />
+      <active id='-1' />
+      <simple-id uuid='{C69D4E00-CFDD-452A-AB1A-48D4DC571084}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='278' name='Sheet 1' width='384'>
+      iVBORw0KGgoAAAANSUhEUgAAAYAAAAEWCAYAAABv+EDhAAAACXBIWXMAAA7DAAAOwwHHb6hk
+      AAAgAElEQVR4nOzdd1hUV/748fcMVbFFkSqigCArigpYIiSaZllbrDHENcU1a2L5JtndGDUx
+      JvkmWROTb4pZXaOJWbuJBduCncQSigoiiorSFUGqgqMw8/uD38w6zgAzCILO5/U8Pg/ee865
+      Z+7M3M897Y5Co9FoEEIIYXGUjV0BIYQQjUMCgBBCWCgJAEIIYaEkAAghhIWSACCEEBZKAoAQ
+      QlgoCQBCCGGhJAAIIYSFkgAghBAWSgKAEEJYKAkAQghhoSQACCGEhZIAIIQQFkoCgBBCWCgJ
+      AEIIYaEkAIgHWlxcHHFxcY1dDSEeSBIAhBDCQkkAEEIICyUBQAghLJQEACGEsFASAIQQwkJJ
+      ABBCCAslAUAIISyUBAAhhLBQEgCEEMJCSQAQQggLJQFACCEslAQAIYSwUBIAhBDCQkkAEEII
+      CyUBQAghLJQEACGEsFASAIQQwkJJABBCCAslAUAIISyUBAAhhLBQEgCEEMJCSQAQQggLJQFA
+      CCEslAQAIYSwUBIAhBDCQkkAEEIICyUBQAghLJQEACGEsFASAIQQwkJJABBCCAslAUAIISyU
+      BAAhhLBQEgCEEMJCSQAQQggLJQFACCEslAQAIYSwUBIAhBDCQkkAEEIICyUBQAghLJRCo9Fo
+      7qWAuLi4+qqLEEKI+8i6sSsgxL0KDg5u7CqIGpSWlgLQsmXLRq6JuNs9BwD58onGJC1QIepO
+      xgCEEMJCSQAQQggLJQFACCEslAwCiwfe6dOnG7sK9aZbt26NXQVhQaQFIIQQFkpaAOKhMHfN
+      qcauwj35OLx7Y1dBWCBpAQghhIWSACCEEBZKAsADTKVSkZqayo0bNxq7KsKC3bhxg8OHD3Pt
+      2rXGroowk4wBmCgnJ4fc3Fy9bQ4ODri7u+Pg4FBrfo1Gw2+//UZlZSUDBgzAxsbmnut08uRJ
+      Vq5cybRp0wgKCrrn8upLRkYGFy9exN3dnS5dujR2dR4qSUlJnD9/Xm/bI488Qvfu3WnXrl2t
+      +Y8fP86xY8fo3r07YWFh9VKnrVu38sILL7Bx40bGjx9fL2XWB41Gw/Lly6moqODll1/G3t6+
+      savU5EgAMNGRI0fYs2eP0X1t2rTBx8eH8ePH06ZNG6Np1Go1q1evBqoen1EfAeB+02g0ZGVl
+      0bp1a1q1alVtuuPHj7N7924GDhwoAaCe/fjjjyxevNjoPjc3N8LCwli8eDHu7u5G0/zyyy98
+      /PHHvP766/UWAO4ntVpNYmIiLi4uuLi41Ji2oqKCV199FYAJEyZIADBCAoCZnn76adzc3ADI
+      z88nKyuL9PR04uLiSE5OZtKkSfTp08cgn0KhICAgACsrK+zs7O53tetFeno6n3zyCcOHD2fE
+      iBHVpnN2diYgIIBOnTrdv8pZmLfeeouAgAA0Gg2XLl0iMTGR2NhYNmzYQFRUFN9++y3PP/+8
+      QT5fX1+GDh1KSEhII9T63sXHx9OnTx/ee+89Fi5cWGNahULB0KFDsbGxMamVbokkAJgpMDDQ
+      4K62oqKCiIgIoqKiWLFiBXZ2dgQGBuqlUSqVzJw5835WtdH079+f/v37N3Y1HmojR47kscce
+      09t269Yt3nvvPT777DPCw8Np0aIFI0eO1EszZcoUpkyZcj+rWq/MeXq9tbU1u3btasDaPPhk
+      ELgeWFtbM2bMGKZPnw7Apk2bqKioaORamecefxZCNAG2trZ8+umnbN68GYA333yTW7duNXKt
+      zKNWqxu7ChZFWgD1KDAwkMDAQBISEjh48CBPPfWU3v6dO3dy+/ZtRo8ebZD36tWrxMbGkp6e
+      TlFRETdu3KBt27Z07NiRwYMH19jnrtFoiImJ4ddffyU7OxulUomnpydBQUE8+uij1eY7f/48
+      +/fv59KlS5SUlNChQwe6du3KiBEj9MYo4uPjOXv2rO657qdOnaKkpESvrN69e+Pv7w9UDQL/
+      +uuv9OvXD29vb6PHLisr49ChQ6Snp3PlyhVatWqFh4cHAwYM0HWxiboZNWoUI0eOJCIigm+/
+      /ZY333xTt+/48eMsX76cyZMnG/1sXLhwgXXr1hEfH09WVhYFBQV07NiR3r178/e//73Gfne1
+      Ws3atWtZvnw5iYmJWFtbExQUxMiRIwkPD682X3R0NN988w2///47V65cITAwkCeffJL3339f
+      12+/adMm9u/fz9WrV4Gq75L2b62xY8cafOc+/PBDysvL+fjjj40eOzIykoiICI4fP45KpaJz
+      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
+      Vvv06cNTTz3F2bNnKS4uBhr+/NSlfGdnZwD27t1r9vEeNA3aBbRq1Sqj2+3s7Bg2bFi1Xxp/
+      f3+mTJlS7QcpLy8PqLoDNkbbv5yRkaHbFhsbS3JyskHaZ555Ru8O1lTXrl3Dzs7O7MVSV69e
+      5dSpUxQWFlJcXKxrSmrvPkxtUdzJ3d2dM2fOkJeXR8eOHcnPz0etVld7frR5tK/DXHUtv3//
+      /mzbto0PPviARx99lICAAHx9fRtkANRcL730ktHtDg4OzJ8/nzlz5hjss7Gx4ZdffqlxhXZa
+      WhoVFRU1ptGuP0hLS6OsrIxZs2YZfA58fX155513THkpRuvg4OCgu7CZ6sKFC+zcuZPMzEwu
+      X76sm0mkvbGqSzdIjx492Lt3L6mpqfTu3dvs82OuupQ/dOhQnJycWLZsGXFxcUyePJmnnnqq
+      yU1Xrw8NGgB69+6t+9ApFApat26Nk5MTnp6eNT5aISwsrMZVl9q+4gULFlSbpqysjIqKCsrK
+      ymjevDkXLlzgyJEjBukGDBhg6svR0Wg05OXl6RaLmUKtVrNy5UpiY2OBqotH69atdU3s69ev
+      m10PLW0Q0rZGtBfdAwcO6Pqv76a9wNTlrrCu5Q8ZMgQ7Ozt27tzJoUOHOHToEN/dIv4AACAA
+      SURBVFZWVvj6+jJo0CCDdRX309ixY3XdkUqlEldXV3x8fAgKCqr20QpdunSpthWqdenSJQC+
+      +eYbNm7caDSNtmsmIyODGzdusGLFCoM0Tz75ZJ0CgFqt5uLFi2ZdvCoqKpg8eTLr168HoFmz
+      Zri4uNCsWTPgvzdgdaEdaNV+hsw9P+aqS/lt27YlOjqa2bNnExUVpesS8vDwYNy4cbzzzju0
+      b9/e7Lo0RQ0aAJ544gmjMyLuVfPmzYGqu4nqWgla2j7B8ePHGzThgTqt2D19+jQVFRVm3VGt
+      W7eO2NhY/Pz8GDVqFN7e3nr7d+3axbZt28yuC/z3y6R9RIX2/Li4uNQ6Xc1YF05t6lq+Uqnk
+      ySefZNCgQVy4cIGUlBTOnDnD2bNnOXPmDI899hjh4eFm16c+zJo1y+hCsHulnYTg7+9PaGho
+      jWn79u2Lo6OjbirunYx1hZoiMjISlUpldKytOjNnzmT9+vUMGjSIDz/80OAm6aOPPuLdd9+t
+      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
+      AEREknoDr5oZmEwALUgAAAAASUVORK5CYII=
+    </thumbnail>
+  </thumbnails>
+</workbook>
