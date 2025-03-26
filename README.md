@@ -39,7 +39,7 @@ We used a dataset found on Kaggle that containing diabetes health indicators. Th
 ## Usage
 
 The final notebook can be found in the Final folder and final data machine learning model can be found in the Resources folder under the name diabetes_logi_regress_model.pkl 
-Our data can also be found under data folder in the rescources folder.
+Our data can also be found under data folder in the rescources folder. A copy of the model was used to create the flask app and is found in the same Resources folder under diabetes_model_2.pkl.
 
 ## Tableau Workbook
 
