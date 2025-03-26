@@ -1,11 +1,16 @@
 # Diabetes-Predictor-Model
 
 ## About
-This project is designed to create a data machine learning model for predicting diabetes using the Logistic Regression algorithm. The model analyzes patient health data from a diabetes health indicator dataset (link can be found below). The model also aims to provide insights into diabetes risk factors and assist in early detection. Again, our model uses logistic regression algorithm as well as Standard Scalar and regularization to find an optimized model.
+This project is designed to create a data machine learning model for predicting diabetes using the Logistic Regression algorithm, and a Flask web application for interactive risk assessment. The model analyzes patient health data from a diabetes health indicator dataset (link can be found below). The model also aims to provide insights into diabetes risk factors and assist in early detection. Again, our model uses logistic regression algorithm as well as Standard Scalar and regularization to find an optimized model.
 
 Our goal is to create a machine learning model that can be used in a predictor to provide a risk score if an individual is at risk of developing diabetes. Being able to predict allows us to them to know whether or not the individual is at risk, which can aid early intervention efforts and stray away from the path of developing diabetes. Our model was optimized by testing our models with different hyperparameters. To which we tested the model at different C-Values(Regularization). 
 
 We used a dataset found on Kaggle that containing diabetes health indicators. There are 3 target variable classes. 0=No diabetes, 1=prediabetes, 2=diabetes. As well as 21 feature variables. Some of those are described below. We converted the data to SQLite which allowed for easier retrieval with queries.
+
+## Project Features
+- **Machine Learning Model**: Optimized Logistic Regression with hyperparameter tuning
+- **Web Interface**: User-friendly Flask application for risk assessment
+- **Risk Factors Analysis**: Identifies key contributors to diabetes risk
 
 ## Featured Variables
 - HighBP: Whether or not the patient has high blood pressure.
@@ -42,7 +47,7 @@ Here is the link to our [Tableau Work Book](PlaceLinkHere.com)
 
 ## Software/Tools/Languages Used
 
-Python, Tableua, SQLite
+Python, Tableau, SQLite
 
 ## Data Source
 
