@@ -12,7 +12,7 @@ We used a dataset found on Kaggle that containing diabetes health indicators. Th
 - **Web Interface**: User-friendly Flask application for risk assessment
 - **Risk Factors Analysis**: Identifies key contributors to diabetes risk
 
-## Featured Variables
+## Featured Variables in Data
 - HighBP: Whether or not the patient has high blood pressure.
 - CholCheck: Whether or not the patient has had a cholesterol check in the last 5 years.
 - BMI: The BMI value of the patient.
