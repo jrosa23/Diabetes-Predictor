@@ -43,7 +43,7 @@ Our data can also be found under data folder in the rescources folder. A copy of
 
 ## Tableau Workbook
 
-Here is the link to our [Tableau Work Book]([PlaceLinkHere.com](https://public.tableau.com/app/profile/jennifer.vega5975/viz/Project_4_17429527576680/Dashboard1?publish=yes))
+Here is the link to our [Tableau Work Book](https://public.tableau.com/app/profile/jennifer.vega5975/viz/Project_4_17429527576680/Dashboard1?publish=yes)
 
 ## Software/Tools/Languages Used
 
